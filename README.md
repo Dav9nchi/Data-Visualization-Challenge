@@ -71,6 +71,8 @@ https://www.linkedin.com/in/davidcastanoe/
 - Google 
 - ChatGPT
 - Stackflow
-- edX Bootcamp content intructions
+- edX Bootcamp content intructions.
+
+# Thank you.
 
    
