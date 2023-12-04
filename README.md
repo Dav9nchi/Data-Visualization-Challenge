@@ -27,18 +27,28 @@ Your summary statistics should include:
 
 ## Create Bar Charts and Pie Charts 
 1. Generate two bar charts. Both charts should be identical and show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
+
   1.1 Create the first bar chart with the Pandas DataFrame.plot() method.
+
   1.2 Create the second bar chart with Matplotlib's pyplot methods.
+
 2. Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
-  2.1 Create the first pie chart with the Pandas DataFrame.plot() method.
-  2.2 Create the second pie chart with Matplotlib's pyplot methods.
+
+   2.1 Create the first pie chart with the Pandas DataFrame.plot() method.
+   
+   2.2 Create the second pie chart with Matplotlib's pyplot methods.
 
 ## Calculate Quartiles, Find Outliers, and Create a Box Plot
 1. Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
+
   1.1 Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
+  
   1.2 Create a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
+  
   1.3 Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.
+  
   1.4 Determine outliers by using the upper and lower bounds, and then print the results.
+  
 Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and style.
 
 ## Create a Line Plot and a Scatter Plot
